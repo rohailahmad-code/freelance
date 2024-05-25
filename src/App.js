@@ -5,7 +5,7 @@ import Signin from './components/Signin';
 import Signup from './components/Signup';
 import Header from './components/Header';
 import BrowseJobs from './components/BrowseJobs';
-
+import JobPost from './components/JobPost';
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -22,6 +22,7 @@ function App() {
           <Route path='/signin' element={<Signin />}/>
           <Route path='/signup' element={<Signup />}/>
           <Route path='/browsejobs' element={<BrowseJobs />}/>
+          <Route path='/jobpost' element={<JobPost />}/>
         </Routes>
       </Router>
     </div>

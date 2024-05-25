@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -12,7 +13,9 @@ function Hero() {
             <p>The possibilities are endless. We have expert 
                 freelancers who work in every technical, professic 
                 and creative field imaginable.</p>
-            <button><a href="">Post a Job</a></button>
+            <Link to="/JobPost">
+                <button><a href="">Post a Job</a></button>
+            </Link>
         </Content>
     </Container>
   )

@@ -25,7 +25,7 @@ function Header() {
               <Link to="/signup">
                 <span>Sign Up</span>
               </Link>
-              <Link to="/">
+              <Link to="/JobPost">
                 <button>Post a Job</button>
               </Link>
 
